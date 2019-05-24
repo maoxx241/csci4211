@@ -1,0 +1,13 @@
+1. first start the meta_server then server1....5  or part of them to suit your network
+2. enable port is free
+3. server offline is not supported, ensure server is online
+4. follow the instruction in your screen to operate P2P network or download files
+5. For download the file, please sure that join the P2P network first.
+6. when a new server join the network, it will automatic create a new folder on your path.
+7. both file and folder is not case sensitive. If the s1 folder already exists, the S1 folder will not be created. S1 server will automatically download the file to the s1 folder.
+
+# use this command to run the meta_server
+python YOUR_PATH/meta_server.py
+
+# use ths command to run the serverX
+python YOUR_PATH/server.py 900X
